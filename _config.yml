@@ -6,7 +6,7 @@
 name: Dahee's blog
 
 # Short bio or description (displayed in the header)
-description: Artificial Intelligence and Machine Learning
+description: Artificial Intelligence & Machine Learning
 #
 # Flags below are optional
 #
@@ -23,7 +23,7 @@ navigation:
   - name: About
     url: /about
   - name: Post
-    url: /post
+    url: /tags
   - name: Github
     url: https://github.com/daheekwon
 
