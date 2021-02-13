@@ -7,16 +7,16 @@ permalink: /about/
 ### Welcome to Dahee’s git blog!
 
 I would like to introduce myself and share what I have studied through this website.
-My specialty has grown up with learning and applying statistical methodologies to solving real-world issues. In this website, you can find relevant articles written in Korean or English. 
+My specialty has grown up with learning and applying statistical methodologies to solving real-world issues. In this website, you can find relevant articles written in Korean or English.  
 
 
 ### Research Interests
-#### Statistical Methodologies / Theories
-+ Interpretable Machine Learning Models  
-+ Bayesian deep learning 
 
-+ Meta-Learning
++ Interpretable Machine Learning Models  
++ Bayesian deep learning  
++ Meta-Learning  
 + AI security  
+
 
 ### Education
 + **Yonsei University**  
