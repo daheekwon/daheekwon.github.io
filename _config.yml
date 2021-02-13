@@ -22,8 +22,6 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Archive
-    url: /archive
   - name: Tags
     url: /tags
   - name: Github
