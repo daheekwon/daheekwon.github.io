@@ -3,9 +3,10 @@ layout: default
 ---
 
 <article class="post">
+  
   <h1>{{ page.title }}</h1>
 
-  <div>
+  <div clsss="meta">
     <span class="date">
       {{ page.date | date: "%Y-%m-%d" }}
     </span>
@@ -20,7 +21,7 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-
+  
   <div class="entry">
     {{ content }}
   </div>
@@ -41,6 +42,6 @@ layout: default
       </span>
     {% endif %}
   </div>
-
-  {% include disqus.html %}
 </article>
+
+{% include disqus.html %}
