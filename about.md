@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: Welcome to Dahee’s git blog!
 permalink: /about/
 ---
-
-### Welcome to Dahee’s git blog!
 
 I would like to introduce myself and share what I have studied through this website.
 My specialty has grown up with learning and applying statistical methodologies to solving real-world issues. In this website, you can find relevant articles written in Korean or English.  
