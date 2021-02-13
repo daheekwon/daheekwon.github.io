@@ -4,12 +4,31 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Welcome to Dahee’s git blog!
 
-### More Information
+I would like to introduce myself and share what I have studied through this website.
+My specialty has grown up with learning and applying statistical methodologies to solving real-world issues. In this website, you can find relevant articles written in Korean or English. 
 
-A place to include any other types of information that you'd like to include about yourself.
+
+### Research Interests
+#### Statistical Methodologies / Theories
++ Interpretable Machine Learning Models  
++ Bayesian deep learning 
+
++ Meta-Learning
++ AI security  
+
+### Education
++ **Yonsei University**  
+  BA in Applied Statistics / ~ 2020.08
++ **KAIST**  
+  MS in Artificial Intelligence / ~ Present
+
+
+### Skills
++ Advanced: Python, R
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[daheekwon@kaist.ac.kr](mailto:daheekwon@kaist.ac.kr)
