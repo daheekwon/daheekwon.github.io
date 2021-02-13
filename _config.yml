@@ -22,8 +22,8 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Tags
-    url: /tags
+  - name: Post
+    url: /post
   - name: Github
     url: https://github.com/daheekwon
 
