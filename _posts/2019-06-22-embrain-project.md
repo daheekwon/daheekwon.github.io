@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Project] Analysis of Easypay Users
+title: Analysis of Easypay Users
 date: 2019-06-22 
 use_math: true
 tags: [Project, Association rules]
