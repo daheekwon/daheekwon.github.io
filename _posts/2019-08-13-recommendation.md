@@ -2,12 +2,9 @@
 layout: post
 title: Recommendation System
 date: 2019-08-13
-categories: [Machine Learning]
-tags: [ml,statistics,ensemble,collaborative filtering, recommendation system, factorization machine,Matrix factorization,python,dl]
+tags: [Machine Learning]
 use_math: true
 permalink: /recommendation/
-color: orange
-toc: true
 comments: true
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
