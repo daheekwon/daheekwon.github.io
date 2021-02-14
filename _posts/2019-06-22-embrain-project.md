@@ -3,7 +3,7 @@ layout: post
 title: Analysis of Easypay Users
 date: 2019-06-22 
 use_math: true
-tags: [Project, Association rules]
+tags: [Projects]
 toc: true
 comments: true
 ---
