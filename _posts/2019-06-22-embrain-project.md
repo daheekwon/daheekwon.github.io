@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Analysis of Easypay Users
+title: [Project] Analysis of Easypay Users
 date: 2019-06-22 
 use_math: true
-permalink: /paneldataanalysis/
-categories: [Projects]
-tags: [Association rules, Embrain, Easypay, competition]
-color: gray
+tags: [Project, Association rules]
 toc: true
 comments: true
 ---
