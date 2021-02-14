@@ -2,11 +2,8 @@
 layout: post
 title: Bayesian Optimization
 date: 2020-02-26
-categories: [Machine Learning, Bayesian]
-tags: [ml,statistics,param_tuning,python,dl]
+tags: [Machine Learning, Bayesian]
 use_math: true
-permalink: /bayes_opt/
-color: brown
 toc: true
 comments: true
 ---
