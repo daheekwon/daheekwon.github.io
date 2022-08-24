@@ -2,7 +2,7 @@
 layout: page
 title: Welcome to Dahee’s git blog!
 permalink: /
-redirect_from: /about/ ; /about.html
+redirect_from: /about/ 
 ---
 
 I would like to introduce myself and share what I have studied through this website.
