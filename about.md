@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Welcome to Dahee’s git blog!
-permalink: /about/
+permalink: /
 ---
 
 I would like to introduce myself and share what I have studied through this website.
