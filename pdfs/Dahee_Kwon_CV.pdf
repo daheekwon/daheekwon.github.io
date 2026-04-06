@@ -1,0 +1,226 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 4 0 R 6 0 R ] /Count 2 >>
+endobj
+3 0 obj
+<< /Length 2895 >>
+stream
+BT
+/F1 11 Tf
+50 790 Td
+14 TL
+/F1 12 Tf
+(DAHEE KWON) Tj
+/F1 11 Tf
+T*
+(- PhD Candidate in Artificial Intelligence) Tj
+T*
+(- KAIST Graduate School of AI) Tj
+T*
+(- Email: daheekwon@kaist.ac.kr | GitHub: github.com/daheekwon | LinkedIn:) Tj
+T*
+(  linkedin.com/in/daheekwon-ai) Tj
+T*
+(- Location: Seongnam, Korea | Phone: +82 10 6287 7674 | Website: daheekwon.github.io) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(RESEARCH INTERESTS) Tj
+/F1 11 Tf
+T*
+(- Generative AI, Representation Learning, Interpretability, Vision-Language Models, Computer) Tj
+T*
+(  Vision) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(SUMMARY) Tj
+/F1 11 Tf
+T*
+(- As a PhD student at the KAIST Graduate School of AI advised by Prof. Jaesik Choi, I study) Tj
+T*
+(  the internal mechanisms of deep learning models and how representations in vision and) Tj
+T*
+(  multimodal systems support generalizable reasoning.) Tj
+T*
+(- My current research focuses on understanding the expressive capabilities and failure modes) Tj
+T*
+(  of visual generative models, with the goal of improving robustness and generalization in) Tj
+T*
+(  open-ended real-world settings.) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(EDUCATION) Tj
+/F1 11 Tf
+T*
+(- Yonsei University \(Mar 2016 - Aug 2020\) | Bachelor's degree in Applied Statistics | GPA:) Tj
+T*
+(  3.72 / 4.3) Tj
+T*
+(- KAIST \(Aug 2020 - Aug 2022\) | M.S. in Artificial Intelligence | Advisor: Jaesik Choi | GPA:) Tj
+T*
+(  4.3 / 4.3) Tj
+T*
+(- KAIST \(Aug 2022 - Present\) | PhD Candidate in Artificial Intelligence | Advisor: Jaesik Choi) Tj
+T*
+(  | GPA: 4.2 / 4.3) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(SELECTED PUBLICATIONS) Tj
+/F1 11 Tf
+T*
+(- ICCV 2025 | Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept) Tj
+T*
+(  Representations | Dahee Kwon, Sehyun Lee, Jaesik Choi) Tj
+T*
+(- CVPR 2025 | Enhancing Creative Generation on Stable Diffusion-based Models | Jiyeon Han,) Tj
+T*
+(  Dahee Kwon, Jaesik Choi) Tj
+T*
+(- AAAI 2024 | Understanding Distributed Representations of Concepts in Deep Neural Networks) Tj
+T*
+(  without Supervision | Wonjoon Chang, Dahee Kwon, Jaesik Choi) Tj
+T*
+(- Under Review | Breaking the Lock-in: Diversifying Text-to-Image Generation via) Tj
+T*
+(  Representation Modulation | Dahee Kwon, Haeun Lee, Jaesik Choi) Tj
+T*
+(- Under Review | Causal Path Tracing in Transformers | Won Jo, Dahee Kwon, Jongeun Baek,) Tj
+T*
+(  Cheongwoong Kang, Jaesik Choi) Tj
+T*
+(- Under Review | SPICE: Simple Polysemantic Feature Interpretation via Clustering-based) Tj
+T*
+(  Explanations | Sehyun Lee, Dahee Kwon, Damin Lee, Jaesik Choi) Tj
+T*
+(- Preprint | MAC: Memory-Augmented Contrastive Learning for Time Series Anomaly Detection |) Tj
+T*
+(  Dahee Kwon, Enver Menadjiev, Qin Xie, Jaesik Choi) Tj
+T*
+(- Preprint | Dual Masking for Domain Generalization | Dahee Kwon, Jaesik Choi) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(WORK EXPERIENCE) Tj
+/F1 11 Tf
+T*
+(- Research Intern, Naver Cloud \(Oct 2025 - Present\) | Visual Generation Team) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1887 >>
+stream
+BT
+/F1 11 Tf
+50 790 Td
+14 TL
+(- Architected an automated data curation pipeline to improve image editing performance.) Tj
+T*
+(- Implemented a Ray-based distributed framework for high-throughput large-scale data) Tj
+T*
+(  processing.) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(SCHOLARSHIPS AND AWARDS) Tj
+/F1 11 Tf
+T*
+(- Insung Scholarship \(Jan 2025\)) Tj
+T*
+(- KAIST Breakthroughs Spring 2026 \(Mar 2026\) | Selected for KAIST Breakthroughs 50 for) Tj
+T*
+(  Granular Concept Circuits.) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(TALKS) Tj
+/F1 11 Tf
+T*
+(- AI EXPO KOREA 2024 Workshop \(May 2024\) | Understanding Deep Neural Networks Decision-Making) Tj
+T*
+(  Through Exploring Learned Features) Tj
+T*
+(- KCC XAI Workshop \(Jun 2024\) | Analyzing the Attribute-relevant Featuremaps in Stable) Tj
+T*
+(  Diffusion Models) Tj
+T*
+(- KAIST XAI Tutorial Series \(Nov 2024\) | Understanding Diffusion-based Generative Models) Tj
+T*
+(- Samsung AI Forum \(Sep 2025\) | Enhancing Creativity in Text-to-Image Generation) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(PROJECTS) Tj
+/F1 11 Tf
+T*
+(- Samsung SAIT \(Feb 2021 - Jun 2022\) | Development of Reinforcement Learning Technology for) Tj
+T*
+(  Optimizing and Automating Semiconductor Design) Tj
+T*
+(- Implemented baseline reinforcement learning and evolutionary algorithms including DDPG, PPO,) Tj
+T*
+(  GCN-RL, and NSGA3.) Tj
+T*
+(- Naver AI Lab \(Sep 2022 - Aug 2024\) | Creative Generation in Text-to-Image Diffusion Model) Tj
+T*
+(- Studied internal representations and image editing behavior in text-to-image diffusion) Tj
+T*
+(  models.) Tj
+T*
+(- IITP \(Aug 2024 - Present\) | AI Research Hub | Project Leader) Tj
+T*
+(- Leading projects on neural scaling laws and interpretation of information stored in internal) Tj
+T*
+(  model modules.) Tj
+T*
+() Tj
+T*
+/F1 12 Tf
+(SKILLS) Tj
+/F1 11 Tf
+T*
+(- Python, PyTorch, Representation Learning, Interpretability, Generative Models, English) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000150 00000 n 
+0000003097 00000 n 
+0000003223 00000 n 
+0000005162 00000 n 
+0000005288 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+5337
+%%EOF

@@ -1,56 +1,210 @@
 ---
 layout: default
+title: Home
 ---
 
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% endif %}
-
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <h1>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h1>
-
-      <div>
-        <span class="date">
-          {{ post.date | date: "%Y-%m-%d" }}
-        </span>
-
-        <ul class="tag">
-          {% for tag in post.tags %}
-          <li>
-            <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-              {{ tag }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+<div class="home-page">
+  <section class="hero">
+    <p class="eyebrow">PhD Candidate in Artificial Intelligence</p>
+    <h1>Dahee Kwon</h1>
+    <p class="hero-summary">
+      I am a PhD student at the KAIST Graduate School of AI advised by Prof. Jaesik Choi. My research
+      focuses on the internal mechanisms of deep learning models, especially how representations in
+      vision and multimodal systems support generalizable reasoning, robustness, and open-ended
+      generation.
+    </p>
+    <div class="hero-links">
+      <a href="mailto:daheekwon@kaist.ac.kr">Email</a>
+      <a href="https://github.com/daheekwon">GitHub</a>
+      <a href="https://linkedin.com/in/daheekwon-ai">LinkedIn</a>
+      <a href="{{ site.baseurl }}/pdfs/Dahee_Kwon_CV.pdf" download>Download CV</a>
+    </div>
+    <div class="contact-grid" id="contact">
+      <div class="contact-card">
+        <span class="contact-label">Email</span>
+        <a href="mailto:daheekwon@kaist.ac.kr">daheekwon@kaist.ac.kr</a>
       </div>
-
-      <div class="entry">
-        {{ post.excerpt }}
+      <div class="contact-card">
+        <span class="contact-label">Location</span>
+        <span>Seongnam, Korea</span>
       </div>
+      <div class="contact-card">
+        <span class="contact-label">Phone</span>
+        <span>+82 10 6287 7674</span>
+      </div>
+      <div class="contact-card">
+        <span class="contact-label">Website</span>
+        <a href="https://daheekwon.github.io">daheekwon.github.io</a>
+      </div>
+    </div>
+  </section>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+  <section class="section-block" id="research">
+    <h2>Research Interests</h2>
+    <div class="pill-list">
+      <span>Generative AI</span>
+      <span>Representation Learning</span>
+      <span>Interpretability</span>
+      <span>Vision-Language Models</span>
+      <span>Computer Vision</span>
+    </div>
+  </section>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <span class="prev">
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
-        &#xE000; Previous
-      </a>
-    </span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <span class="next">
-      <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
-        Next &#xE001;
-      </a>
-    </span>
-  {% endif %}
+  <section class="section-block">
+    <h2>Summary</h2>
+    <p>
+      My current work centers on understanding the expressive capabilities and inherent failure modes
+      of visual generative models, with the long-term goal of improving robustness and generalization
+      in open-ended real-world settings. I am particularly interested in how structural organization
+      in learned representations enables scalable reasoning across vision and multimodal systems.
+    </p>
+  </section>
+
+  <section class="section-block">
+    <h2>Education</h2>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-period">Mar 2016 - Aug 2020</div>
+        <div class="timeline-content">
+          <h3>Yonsei University</h3>
+          <p>Bachelor's degree in Applied Statistics</p>
+          <p class="muted">GPA: 3.72 / 4.3</p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-period">Aug 2020 - Aug 2022</div>
+        <div class="timeline-content">
+          <h3>Korea Advanced Institute of Science and Technology</h3>
+          <p>Master of Science in Artificial Intelligence</p>
+          <p class="muted">Advisor: Jaesik Choi | GPA: 4.3 / 4.3</p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-period">Aug 2022 - Present</div>
+        <div class="timeline-content">
+          <h3>Korea Advanced Institute of Science and Technology</h3>
+          <p>PhD Candidate in Artificial Intelligence</p>
+          <p class="muted">Advisor: Jaesik Choi | GPA: 4.2 / 4.3</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block" id="publications">
+    <h2>Selected Publications</h2>
+    <p>
+      My recent work spans interpretability, representation learning, and generative modeling in
+      vision and multimodal systems.
+    </p>
+    <div class="publication-list">
+      <article class="publication-item">
+        <div class="publication-meta">ICCV 2025</div>
+        <h3><a href="https://arxiv.org/abs/2508.01728">Granular Concept Circuits: Toward a Fine-Grained Circuit Discovery for Concept Representations</a></h3>
+        <p><strong>Dahee Kwon</strong>, Sehyun Lee and Jaesik Choi</p>
+      </article>
+      <article class="publication-item">
+        <div class="publication-meta">CVPR 2025</div>
+        <h3><a href="https://arxiv.org/abs/2503.23538">Enhancing Creative Generation on Stable Diffusion-based Models</a></h3>
+        <p>Jiyeon Han, <strong>Dahee Kwon</strong> and Jaesik Choi</p>
+      </article>
+      <article class="publication-item">
+        <div class="publication-meta">AAAI 2024</div>
+        <h3><a href="https://arxiv.org/abs/2312.17285">Understanding Distributed Representations of Concepts in Deep Neural Networks without Supervision</a></h3>
+        <p>Wonjoon Chang, <strong>Dahee Kwon</strong> and Jaesik Choi</p>
+      </article>
+    </div>
+    <div class="section-actions">
+      <a href="{{ site.baseurl }}/publications/">View all publications</a>
+    </div>
+  </section>
+
+  <section class="section-block" id="experience">
+    <h2>Work Experience</h2>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-period">Oct 2025 - Present</div>
+        <div class="timeline-content">
+          <h3>Research Intern, Naver Cloud</h3>
+          <p class="muted">Visual Generation Team</p>
+          <ul>
+            <li>Architected an automated data curation pipeline to improve image editing performance.</li>
+            <li>Implemented a Ray-based distributed framework for high-throughput large-scale data processing.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <h2>Scholarships and Awards</h2>
+    <div class="simple-list">
+      <article>
+        <h3>Insung Scholarship</h3>
+        <p class="muted">Jan 2025</p>
+      </article>
+      <article>
+        <h3>KAIST Breakthroughs Spring 2026</h3>
+        <p class="muted">Mar 2026</p>
+        <p>
+          Selected for KAIST Breakthroughs 50 for the paper "Granular Concept Circuits: Toward a
+          Fine-Grained Circuit Discovery for Concept Representations."
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <h2>Talks</h2>
+    <div class="simple-list">
+      <article>
+        <h3>Understanding Deep Neural Networks Decision-Making Through Exploring Learned Features</h3>
+        <p class="muted">AI EXPO KOREA 2024 Workshop | May 2024</p>
+      </article>
+      <article>
+        <h3>Analyzing the Attribute-relevant Featuremaps in Stable Diffusion Models</h3>
+        <p class="muted">KCC XAI Workshop | Jun 2024</p>
+      </article>
+      <article>
+        <h3>Understanding Diffusion-based Generative Models</h3>
+        <p class="muted">KAIST XAI Tutorial Series | Nov 2024</p>
+      </article>
+      <article>
+        <h3>Enhancing Creativity in Text-to-Image Generation</h3>
+        <p class="muted">Samsung AI Forum | Sep 2025</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <h2>Projects</h2>
+    <div class="simple-list">
+      <article>
+        <h3>Development of Reinforcement Learning Technology for Optimizing and Automating Semiconductor Design</h3>
+        <p class="muted">Samsung SAIT | Feb 2021 - Jun 2022</p>
+        <p>Worked on reinforcement learning and evolutionary algorithm baselines including DDPG, PPO, GCN-RL, and NSGA3.</p>
+      </article>
+      <article>
+        <h3>Creative Generation in Text-to-Image Diffusion Model</h3>
+        <p class="muted">Naver AI Lab | Sep 2022 - Aug 2024</p>
+        <p>Studied internal representations and image editing behavior in text-to-image diffusion models.</p>
+      </article>
+      <article>
+        <h3>AI Research Hub</h3>
+        <p class="muted">IITP | Aug 2024 - Present</p>
+        <p>Leading projects on neural scaling laws and interpretation of information stored in internal model modules.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <h2>Skills</h2>
+    <div class="pill-list">
+      <span>Python</span>
+      <span>PyTorch</span>
+      <span>Representation Learning</span>
+      <span>Interpretability</span>
+      <span>Generative Models</span>
+      <span>English</span>
+    </div>
+  </section>
 </div>

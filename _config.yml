@@ -6,7 +6,7 @@
 name: Dahee Kwon
 
 # Short bio or description (displayed in the header)
-description: Ph.D student at the Graduate School of AI, KAIST
+description: PhD Candidate in Artificial Intelligence at KAIST
 
 #
 # Flags below are optional
@@ -20,16 +20,18 @@ description: Ph.D student at the Graduate School of AI, KAIST
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-#   - name: Blog
-#     url: /
-#   - name: About
-#     url: /about
-#   - name: Archive
-#     url: /archive
-#   - name: Tags
-#     url: /tags
-#   - name: Theme
-#     url: https://github.com/AWEEKJ/kiko-now
+  - name: Home
+    url: /
+  - name: Research
+    url: /#research
+  - name: Publications
+    url: /publications/
+  - name: Experience
+    url: /#experience
+  - name: Contact
+    url: /#contact
+  - name: CV
+    url: /pdfs/Dahee_Kwon_CV.pdf
 
 # Pagination
 paginate: 5
@@ -38,10 +40,10 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: daheekwon@kaist.ac.kr
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: daheekwon
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin: dahee-kwon-3bb556237
@@ -53,7 +55,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2026 Dahee Kwon
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -64,7 +66,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://daheekwon.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

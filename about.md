@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Welcome to Dahee’s git blog!
-permalink: /
-redirect_from: /about/ 
-redirect_to: /
+title: About
+permalink: /about/
 ---
 
-I would like to introduce myself and share what I have studied through this website.
-My specialty has grown up with learning and applying statistical methodologies to solving real-world issues. In this website, you can find relevant articles written in Korean or English.  
+This website now serves primarily as a personal academic homepage.
 
+Older blog posts and notes are still available in the repository and through their direct links.
 
 ### Research Interests
 
