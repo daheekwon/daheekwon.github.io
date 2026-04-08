@@ -513,6 +513,15 @@ nav {
   font-size: 15px;
 }
 
+.academic-photo {
+  width: 180px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
 .academic-role {
   margin-top: 0;
   margin-bottom: 18px;
@@ -523,12 +532,6 @@ nav {
 .academic-follow {
   margin-bottom: 18px;
 
-  strong {
-    display: block;
-    margin-bottom: 6px;
-    color: $darkGray;
-  }
-
   a {
     display: block;
     margin-bottom: 4px;
@@ -538,9 +541,10 @@ nav {
 .academic-meta {
   margin: 0;
   padding: 0;
+  list-style: none;
 
   > li {
-    margin: 0 0 8px 18px;
+    margin: 0 0 8px 0;
   }
 }
 
