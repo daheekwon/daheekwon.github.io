@@ -26,8 +26,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1120px;
-  padding: 0 8px;
+  max-width: 1280px;
+  padding: 0 6px;
   width: 100%;
 }
 
@@ -46,18 +46,18 @@ h1, h2, h3, h5 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
@@ -490,8 +490,8 @@ nav {
 // Academic home
 .academic-home {
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
-  gap: 28px;
+  grid-template-columns: 165px minmax(0, 1fr);
+  gap: 18px;
   align-items: start;
 
   @include mobile {
@@ -503,7 +503,7 @@ nav {
 .academic-sidebar {
   position: sticky;
   top: 24px;
-  margin-left: -8px;
+  margin-left: -14px;
 
   @include mobile {
     position: static;
@@ -516,7 +516,7 @@ nav {
 }
 
 .academic-photo {
-  width: 160px;
+  width: 145px;
   max-width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -555,7 +555,7 @@ nav {
 }
 
 .academic-section {
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 
   h1,
   h2,
@@ -576,10 +576,10 @@ nav {
 }
 
 .paper-entry {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 
   h3 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.45;
     margin-bottom: 6px;
   }
