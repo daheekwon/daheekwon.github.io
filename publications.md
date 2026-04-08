@@ -4,6 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
+<div class="publications-page">
 <section class="academic-section">
   <h2>Conference Publications</h2>
 
@@ -66,3 +67,4 @@ permalink: /publications/
     <p>Preprint</p>
   </div>
 </section>
+</div>
