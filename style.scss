@@ -26,8 +26,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
-  padding: 0 10px;
+  max-width: 1120px;
+  padding: 0 8px;
   width: 100%;
 }
 
@@ -312,11 +312,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 16px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -490,8 +490,8 @@ nav {
 // Academic home
 .academic-home {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 48px;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 28px;
   align-items: start;
 
   @include mobile {
@@ -503,9 +503,11 @@ nav {
 .academic-sidebar {
   position: sticky;
   top: 24px;
+  margin-left: -8px;
 
   @include mobile {
     position: static;
+    margin-left: 0;
   }
 }
 
@@ -514,7 +516,7 @@ nav {
 }
 
 .academic-photo {
-  width: 180px;
+  width: 160px;
   max-width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -553,7 +555,7 @@ nav {
 }
 
 .academic-section {
-  margin-bottom: 34px;
+  margin-bottom: 28px;
 
   h1,
   h2,
