@@ -6,7 +6,7 @@
 name: Dahee Kwon
 
 # Short bio or description (displayed in the header)
-description: PhD Candidate in Artificial Intelligence at KAIST
+description: Research Homepage
 
 #
 # Flags below are optional
@@ -22,14 +22,10 @@ description: PhD Candidate in Artificial Intelligence at KAIST
 navigation:
   - name: Home
     url: /
-  - name: Research
-    url: /#research
   - name: Publications
     url: /publications/
-  - name: Experience
-    url: /#experience
-  - name: Contact
-    url: /#contact
+  - name: About
+    url: /about/
   - name: CV
     url: /pdfs/Dahee_Kwon_CV.pdf
 
